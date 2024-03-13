@@ -12,35 +12,56 @@
         <nav>
             <p id="nav-logo">Meg's Portfolio</p>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Resume</a></li>
             </ul>
         </nav>
     </header>
     
-    <section>
+    <section id="first-section">
         <h2>Cool Subtitle Here!</h2>
     </section>
 
-    <section>
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusantium aut facilis unde ut consequatur eveniet maiores minus voluptas, vel quidem, asperiores qui eaque quasi at nisi explicabo illum voluptatem.</p>
+    <section class="main-section-style"> 
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="section-content">
+            <p>Hi there! My name is Meg and I'm a Registered Dietitian Nutritionist and web developer looking to blend my love for wellness and technology. With over 5 years of experiecing working with health tech start ups from all over the country</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Work</h2>
+    <section class="main-section-style">
+        <div class="section-title">
+            <h2>Work</h2>
+        </div>
+        <div class="section-content">
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusantium aut facilis unde ut consequatur eveniet maiores minus voluptas, vel quidem, asperiores qui eaque quasi at nisi explicabo illum voluptatem.</p> -->
+            <div class="project-container">
+                <div id="container-1">
+                    <figure id="first-project"><img src="assets/images/screenshot-module-1-challenge.png" alt="screenshot of first project" /></figure>
+                </div>
+                <div id="container-2">
+                    <div id="other-projects"></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Contact Me</h2>
-            <ul>
-                <li><a href="#" class="contact-links"></a>555.555.555</li>
-                <li><a href="#" class="contact-links"></a>megan@dishingnutrition.com</li>
-                <li><a href="#" class="contact-links"></a>GitHub</li>
-                <li><a href="#" class="contact-links"></a>Twitter</li>
-            </ul>
+    <section class="main-section-style">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+        </div> 
+                <ul class="contact-section">
+                    <li><a href="#" class="contact-links">555.555.5555</a></li>
+                    <li><a href="#" class="contact-links">megan@dishingnutrition.com</a></li>
+                    <li><a href="#" class="contact-links">GitHub</a></li>
+                    <li><a href="#" class="contact-links">Twitter</a></li>
+                </ul>
+        
     </section>
 
 </body>

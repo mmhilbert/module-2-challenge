@@ -1,6 +1,15 @@
+:root {
+    --primary-color: #48674A;
+}
+
+body {
+    font-family: monospace;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    height: 50px;
     
 }
 
@@ -9,4 +18,100 @@ nav ul {
     gap: 10px;
 }
 
-sectio
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+#nav-logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+
+#first-section {
+    background-image: url(images/pexels-sohail-nachiti-807598.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-section h2 {
+    color: white;
+}
+
+.main-section-style {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.main-section-style h2 {
+    font-size: 40px;
+    color: var(--primary-color)
+}
+
+.section-title {
+    width: 25%;
+    text-align: end;
+    border-right: 5px solid var(--primary-color);
+}
+
+.section-title h2 {
+    padding-right: 10px;
+}
+
+.section-content {
+   padding-left: 20px;
+    width: 75%;
+}
+
+.project-container {
+    width: 900px;
+    height: 900px;
+}
+
+#container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+#first-project {
+    max-width: 780px;
+    height: 360px;
+    overflow: hidden;
+}
+
+#first-project img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+#first-project img:hover {
+    filter: none;
+}
+
+.contact-section {
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
