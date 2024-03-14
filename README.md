@@ -1,2 +1,17 @@
-# module-2-challenge
-Advanced CSS Challenge: Professional Portfolio
+# Module 2 Challenge
+Professional Portfolio Advanced CSS Challenge. This portfolio contains an about me seciont, contact information, and links to deployed projects as well as placeholder images and names to include future projects as class continues. 
+
+
+## Screenshot 
+
+![module  2 challenge screenshot](/module-2-challenge/assets/images/screenshot-module-2-challenge_index.html.png)
+
+## Link 
+
+Portfolio can be located [here](https://mmhilbert.github.io/module-2-challenge/)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
