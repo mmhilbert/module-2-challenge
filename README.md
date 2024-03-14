@@ -1,5 +1,5 @@
 # Module 2 Challenge
-Professional Portfolio Advanced CSS Challenge. This portfolio contains an about me seciont, contact information, and links to deployed projects as well as placeholder images and names to include future projects as class continues. 
+Professional Portfolio Advanced CSS Challenge. This portfolio contains an about me section, contact information, and links to deployed projects as well as placeholder images. These placeholder images and links will be updatated with completed projects as class continues.
 
 
 ## Screenshot 
