@@ -8,6 +8,12 @@
 body {
     font-family: monospace;
     background-color: var(--background-color);
+    color: #4E3D42;
+    font-weight: 500;
+}
+
+header {
+    margin-bottom: 20px;
 }
 
 nav {
@@ -25,15 +31,34 @@ nav ul {
 
 a {
     text-decoration: none;
+    color: #4E3D42;
     
+}
+
+a:hover {
+    text-decoration: line-through;
 }
 
 img {
     width: 100%;
 }
 
-a:hover {
-    text-decoration: line-through;
+footer {
+    padding: 20px;
+}
+
+#work-section a {
+    filter: grayscale(100%);
+    position: relative;
+    border: 4px solid var(--primary-color); 
+}
+
+#work-section a:hover {
+    filter: none;
+}
+
+footer p {
+   text-align: center;
 }
 
 
@@ -45,8 +70,10 @@ a:hover {
 }
 
 #first-section {
+    position: relative;
     background-image: url(images/pexels-sohail-nachiti-807598.jpg);
     height: 200px;
+    letter-spacing: 35px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -56,14 +83,30 @@ a:hover {
     align-items: center;
 }
 
-#first-section h2 {
-    color: white;
+#first-section::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .30;
+    z-index: 1;
 }
+
+#first-section h2 {
+    color: #E0AFA0;
+    font-size: 28px;
+    font-weight: 900;
+    z-index: 2;
+}
+
 
 .main-section-style {
     display: flex;
     margin-bottom: 30px;
-
+    
 }
 
 .main-section-style h2 {
@@ -82,7 +125,7 @@ a:hover {
 }
 
 .section-content {
-   padding-left: 20px;
+    padding-left: 20px;
     width: 75%;
 }
 
@@ -94,23 +137,41 @@ a:hover {
     padding: 0 40px;
 }
 
-#work-section figure {
-    overflow: hidden;
-}
-
 .project-container {
     width: 900px;
     height: 900px;
 }
 
 #container-1 {
-    /* display: flex; */
     justify-content: center;
 }
 
 #first-project {
     grid-column: span 2;
+    background-image: url(images/screenshot-module-1-challenge.png);
+    background-size: cover;
 }
+
+#week-one-activity {
+    background-image: url(images/module-1-mini-project-screenshot.png);
+    background-size: cover;
+}
+
+#calculator {
+    background-image: url(images/pexels-antonio-batinić-4164418.jpg);
+    background-size: cover;
+}
+
+#placeholder-1 {
+    background-image: url(images/pexels-tranmautritam-326503.jpg);
+    background-size: cover;
+}
+
+#placeholder-2 {
+    background-image: url(images/pexels-designecologist-1779487.jpg);
+    background-size: cover;
+}
+
 .card-header {
     position: absolute;
     background-color: #48674A;
@@ -121,18 +182,6 @@ a:hover {
     padding: 8px;
 }
 
-#work-section figure {
-    position: relative;
-    border: 4px solid var(--primary-color)
-}
-
-#work-section figure img {
-    filter: grayscale(100%);
-}
-
-#work-section figure img:hover {
-    filter: none;
-}
 
 .contact-section {
     padding-left: 20px;
@@ -144,4 +193,50 @@ a:hover {
 }
 
 
+/* mobile */
+@media screen and (max-width: 767px) {
 
+    #nav-logo {
+        font-size: 20px;
+    }
+
+    nav li {
+        text-align: center;
+    }
+
+    .main-section-style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-title {
+        border-bottom: 5px solid #48674A;
+        border-right: unset;
+        width: 250px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+    #work-section .section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #work-section .section-content a {
+        height: 35vw;
+        width: 100%;
+    }
+
+    .contact-section {
+        display: block;
+        text-align: center;
+    }
+
+    .contact-section li {
+        padding: 3px;
+    }
+}
