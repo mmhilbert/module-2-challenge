@@ -4,7 +4,7 @@ Professional Portfolio Advanced CSS Challenge. This portfolio contains an about 
 
 ## Screenshot 
 
-![module  2 challenge screenshot](/module-2-challenge/assets/images/screenshot-module-2-challenge_index.html.png)
+![module  2 challenge screenshot](./assets/images/screenshot-module-2-challenge_index.html.png)
 
 ## Link 
 
